@@ -1,7 +1,16 @@
+/* Макет лежит здесь*/
+/* https://www.figma.com/file/RQ3UoMk6OW5lBfmUJTeQK3 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .page-container {
@@ -18,15 +27,149 @@
     background-color:#fff;
 
 }
-
+/* Изображение. Надпись WebStudio */
 .top-line  .logo_img{
     margin-top: 24px;
     margin-left: 215px;
+    display: block;
+    float: left;
 }
+
+/* Описание меню  верх */
+.top-line-menu {
+    display: block;
+    float: left;
+    margin-left: 93px;
+    line-height: 48px;
+    /* margin-top: 32px; */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: blue;
+  }
+
+
+.top-info-email {
+    font-family: Roboto;
+    line-height: 76px;
+    float: left;
+    color: #2196F3;
+    margin-left: 350px;
+}
+
+.top-info-phone {
+    font-family: Roboto;
+    line-height: 76px;
+    float: left;
+    color: #000;
+    margin-left: 70px;
+}
+
+
+/* НАЧАЛО HEADER */
 .header-under-line {
-    /* Шапка */
-    /* width: 1600px; */
+    width: 1600px;
     height: 600px;
-    /* left: 0px; */
-    /* top: 80px; */
+    left: 0px;
+    top: 80px;
+    margin: auto;
+    text-align: center;
+    background: #2F303A;
+}
+
+.main-label {
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color:#fff;
+    /* margin-top: 200px; */
+    padding-top: 200px;
+}
+button.order {
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    color:#fff;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: 40px;
+    
+}
+
+
+.details {
+    width: 1170px;
+    height: 101px;
+    /* left: 215px;
+    top: 774px; */
+    display: flex;
+    margin: 0 auto;
+    margin-top: 94px;
+    
+}
+.details-block-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
+    
+}
+.details-block-text {
+    margin-top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+
+.what-we-doing-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 94px;;
+    color: #212121;
 }
