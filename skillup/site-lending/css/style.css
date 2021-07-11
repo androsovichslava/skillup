@@ -137,6 +137,7 @@ button.order {
     /* left: 215px;
     top: 774px; */
     display: flex;
+    justify-content: space-between;
     margin: 0 auto;
     margin-top: 94px;
     background-color: #fff;
@@ -152,6 +153,8 @@ button.order {
     text-transform: uppercase;
     
     color: #212121;
+    width: 270px;
+
     
 }
 .details-block-text {
@@ -166,6 +169,7 @@ button.order {
     letter-spacing: 0.03em;
     
     color: #757575;
+    width: 270px;
 }
 
 .what-we-doing-title {
