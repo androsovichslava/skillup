@@ -130,18 +130,29 @@ button.order {
     
 }
 
+.center-container {
+    width: 1170px;
+    margin: 0 auto;
+}
 
 .details {
-    width: 1170px;
-    height: 101px;
-    /* left: 215px;
-    top: 774px; */
+
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 94px;
     background-color: #fff;
     
+}
+
+
+
+.details-blocks {
+    /* display: flex;
+    flex-wrap: wrap;   */
+    width: 270px; 
+    height: 101px;
 }
 .details-block-title {
     font-family: Roboto;
@@ -337,3 +348,13 @@ button.order {
 
 }
 
+/* Адаптация под мобилку */
+
+@media screen and (max-width: 575px) {
+
+
+    .cetner-container {
+        display: block;
+      }
+
+}
