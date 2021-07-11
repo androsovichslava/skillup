@@ -17,6 +17,12 @@
     background: #E5E5E5;
     
 }
+
+.blocks-container {
+    width: 1600px;
+    margin: 0 auto;
+    background-color: #fff;
+}
 .top-line {
     /* Верхняя линия */
     width: 1600px;
@@ -112,13 +118,12 @@ ul {
 button.order {
     width: 200px;
     height: 50px;
-    left: 700px;
-    top: 430px;
+
     color:#fff;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 16px;
     font-style: normal;
     margin-top: 40px;
@@ -134,6 +139,7 @@ button.order {
     display: flex;
     margin: 0 auto;
     margin-top: 94px;
+    background-color: #fff;
     
 }
 .details-block-title {
@@ -173,3 +179,157 @@ button.order {
     margin-top: 94px;;
     color: #212121;
 }
+
+.what-we-doing-pictures {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto; 
+    margin-top: 50px;
+    /* background-color: #eee; */
+    justify-content: space-around;
+}
+
+.block-pictures {
+    width: 370px;
+    height: 294px;
+    /* background-color: #ccdd; */
+}
+
+.our-team {
+    width: 1600px;
+    height: 648px;
+    background: #F5F4FA;
+    margin: 0 auto;
+    margin-top: 94px;
+}
+
+.our-team-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-top: 94px;;
+    color: #212121;
+}
+
+.our-team-block-photos {
+    display: flex;
+    width: 1170px;
+    height: 368px;
+    justify-content:space-between;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.our-team-photo {
+    
+    width: 270px;
+    height: 368px;
+
+    background: #FFFFFF;
+    /* material shadow v1 */
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-photo img {
+    width: 270px;
+    height: 260px;
+    
+    /* background-color: #fff; */
+    
+}
+
+
+.block-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    margin: 30px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.block-position {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+.block-footer {
+    width: 1600px;
+    height: 252px;
+    background: #2F303A;
+    margin: 0 auto;
+
+}
+
+.footer-logo img {
+    margin-top: 60px;
+    margin-left: 215px;
+
+}
+.footer-adress {
+    margin-top: 20px;
+    margin-left: 215px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+.footer-email {
+    margin-top: 9px;
+    margin-left: 215px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+
+
+}
+.footer-phone {
+    margin-top: 9px;
+    margin-left: 215px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
